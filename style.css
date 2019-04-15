@@ -1,3 +1,11 @@
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0;
+	background-color: #E8E826;
+}
 a:hover {
 	text-decoration: none !important;
 }
@@ -13,11 +21,17 @@ ul.hr {
     padding: 3px; /* Поля вокруг текста */
 }
 
+h3{
+	text-align: center;
+	margin:0;
+	font-family: 'Vollkorn', serif;
+	font-size: 2.2em;
+	color: black;
+
+}
 .header-info {
-	z-index: 100;
-	position: fixed;
 	top: 0;
-	width: 500em;
+	width: 100%;
 }
 
 .menu {
@@ -41,36 +55,28 @@ ul.hr {
 }
 
 #container {
+	height: 100%;
     width: 100%; /* Ширина слоя */
     margin: auto; /* Выравнивание по центру */
-    background: #f0f0f0; /* Цвет фона левой колонки */
+    background: #FBDFC4; /* Цвет фона левой колонки */
   }
 
 #content {
 	font-family: 'Roboto', sans-serif;
-   margin: 5% auto;
  }
+
 p{
-	color:#FFFFFF;
+	color: black;
 	font-size: 200%;
 }
   #header {
   	font-family: 'Vollkorn', serif;
   	margin: 3% auto;
     font-size: 2.2em; /* Размер текста */
-    display: flex; 
-    justify-content: center;
     padding: 5px; /* Отступы вокруг текста */
     background-color: black;
     color: #ffe; /* Цвет текста */
   }
-
-  .banner {
-	position: relative;
-	height: 100vh;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
 
 #gallery-container {
 	float: left;
