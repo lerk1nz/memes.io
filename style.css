@@ -1,0 +1,109 @@
+a:hover {
+	text-decoration: none !important;
+}
+
+ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+.header-info {
+	z-index: 100;
+	position: fixed;
+	top: 0;
+	width: 500em;
+}
+
+.menu {
+	font-family: 'Vollkorn', serif;
+	height: 60px;
+	background-color: black;
+}
+
+.menu__item {
+	font-size: 24px;
+}
+
+.menu__link {
+	padding: 0 15px;
+	color: white; 
+}
+
+.menu__link:hover {
+	color: red;
+	transition: 0.5s;
+}
+
+#container {
+    width: 100%; /* Ширина слоя */
+    margin: auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+  }
+
+#content {
+	font-family: 'Roboto', sans-serif;
+   margin: 5% auto;
+ }
+p{
+	color:#FFFFFF;
+	font-size: 200%;
+}
+  #header {
+  	font-family: 'Vollkorn', serif;
+  	margin: 3% auto;
+    font-size: 2.2em; /* Размер текста */
+    display: flex; 
+    justify-content: center;
+    padding: 5px; /* Отступы вокруг текста */
+    background-color: black;
+    color: #ffe; /* Цвет текста */
+  }
+
+  .banner {
+	position: relative;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#gallery-container {
+	float: left;
+	position: relative;
+	width: 500px;
+	height: auto;
+	padding-top: 350px;
+	padding-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border: 1px #aaaaaa solid;
+}
+
+img.gallery-fullsize {
+	position: absolute;
+	top: 15px;
+	left: 50px;
+	display: none;
+}
+
+div.gallery-item {
+	display: inline-block;
+}
+
+input.gallery-selector {
+	display: none;
+}
+
+label.gallery-label {
+	cursor: pointer;
+}
+
+input.gallery-selector:checked ~ img.gallery-fullsize {
+	display: block;
+}
